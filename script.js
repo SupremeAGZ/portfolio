@@ -27,7 +27,7 @@ function renderFilters() {
 
 function imageMarkup(project) {
   return `<img src="${project.image}" alt="${project.title}" loading="lazy"
-    onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+    onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
     <div class="project-placeholder" style="display:none">${project.category}</div>`;
 }
 
