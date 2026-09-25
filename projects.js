@@ -32,3 +32,11 @@ const PROJECTS = [
     link: "#"
   }
 ];
+ {
+    title: "UI Buttons",
+    category: "UI Buttons",
+    description: "A polished Roblox banking interface designed with a dark, modern visual style. The project focuses on clean navigation, financial dashboards, cards, transactions, and a premium overall presentation.",
+    image: "assets/images/AGZ HUB.jpg",
+    link: "#"
+  }
+];
