@@ -25,11 +25,11 @@ const SITE = {
 
 const PROJECTS = [
   {
-    title: "Featured UI Concept",
+    title: "AGZ Online HUB",
     category: "UI",
     description: "Replace this with a real project description. Explain what you designed, what it was for, and what makes it special.",
-    image: "assets/images/project-01.jpg",
-    link: "#"
+    image: "assets/images/AGZ HUB.png",
+    link: "#Roblox #UI"
   },
   {
     title: "Roblox GFX",
