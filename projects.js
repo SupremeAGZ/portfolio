@@ -16,9 +16,9 @@
 // }
 
 const SITE = {
-  name: "YOUR NAME",
+  name: "SUPREMEAGZ",
   email: "you@example.com",
-  x: "https://x.com/YOUR_USERNAME",
+  x: "https://x.com/supremeagzgfx",
   heroDescription: "I create polished UI, GFX, interfaces and visual experiences for Roblox projects that want to look production-ready.",
   about: "I'm a Roblox creative focused on clean interfaces, strong visuals and polished presentation. This portfolio is designed to grow alongside my work."
 };
