@@ -47,7 +47,7 @@ const PROJECTS = [
   },
   {
     title: "Health & Stamina UI | Pack",
-    category: "UI" "Packs",
+    category: "UI",
     description: "A clean, modern Roblox HUD featuring customizable health and stamina bars designed for fast-paced gameplay. The interface focuses on clear visual feedback, smooth presentation, and a polished layout that fits seamlessly into competitive FPS-style experiences.",
     image: "assets/images/Health & Stamina BAR.jpg",
     link: "#"
