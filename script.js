@@ -8,7 +8,7 @@ $$("[data-about]").forEach(el => el.textContent = SITE.about);
 $$("[data-x-link]").forEach(el => el.href = SITE.x);
 $$("[data-email-link]").forEach(el => el.href = `mailto:${SITE.email}`);
 $("#year").textContent = new Date().getFullYear();
-$("#stat-projects").textContent = `${PROJECTS.length.toString().padStart(2,"0")}+`;
+$$("[data-stat-projects]").forEach(el => el.textContent = `${PROJECTS.length.toString().padStart(2,"0")}+`);
 
 const filters = ["ALL", ...new Set(PROJECTS.map(p => p.category))];
 const filterWrap = $("#filters");
