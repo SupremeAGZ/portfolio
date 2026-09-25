@@ -34,7 +34,7 @@ const PROJECTS = [
 ];
  {
     title: "Icon Buttons | Fully Customizable",
-    category: "UI Buttons",
+    category: "UI",
     description: "A polished Roblox banking interface designed with a dark, modern visual style. The project focuses on clean navigation, financial dashboards, cards, transactions, and a premium overall presentation.",
     image: "assets/images/UI Buttons.jpg",
     link: "#"
