@@ -37,12 +37,12 @@ const PROJECTS = [
     description: "A fully customizable Roblox UI button collection built to easily fit any game, theme, or interface while keeping a clean and polished visual style.",
     image: "assets/images/UI Buttons.jpg",
     link: "#"
-  },
+    },
   {
     title: "Character Select",
     category: "UI",
     description: "A polished character selection interface designed for Roblox, featuring a clean layout that lets players browse and select their preferred character with a smooth, modern presentation.",
     image: "assets/images/Character Select.jpg",
     link: "#"
-  }
+  },
 ];
