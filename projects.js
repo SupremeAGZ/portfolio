@@ -53,4 +53,11 @@ const PROJECTS = [
     image: "assets/images/Health & Stamina BAR.jpg",
     link: "#"
   },
+   {
+    title: "Simulator Interface",
+    category: "UI",
+    description: "A polished Roblox simulator UI designed around clear progression, responsive navigation, and a modern visual style. The interface brings together key gameplay information, upgrades, rewards, and player progression into a clean and easy-to-use experience.",
+    image: "assets/images/Simulator UI.jpg",
+    link: "#"
+  },
 ];
