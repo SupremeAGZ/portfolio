@@ -59,27 +59,50 @@ function imageMarkup(project) {
 }
 
 function renderProjects() {
-  const visible =
-    activeFilter === "ALL"
-      ? PROJECTS
-      : PROJECTS.filter(p => p.category === activeFilter);
+  const query = searchQuery.trim().toLowerCase();
 
-  $("#project-grid").innerHTML = visible.map(p => `
-    <article class="project" data-index="${PROJECTS.indexOf(p)}">
-      <div class="project-image">
-        ${imageMarkup(p)}
-        <div class="project-overlay"></div>
-      </div>
+  const visible = PROJECTS.filter(project => {
+    const matchesFilter =
+      activeFilter === "ALL" ||
+      project.category === activeFilter;
 
-      <div class="project-info">
-        <div>
-          <h3 class="project-title">${p.title}</h3>
-          <div class="project-meta">${p.category}</div>
+    const searchableText = [
+      project.title,
+      project.category,
+      project.description
+    ].join(" ").toLowerCase();
+
+    const matchesSearch =
+      query === "" ||
+      searchableText.includes(query);
+
+    return matchesFilter && matchesSearch;
+  });
+
+  $("#project-grid").innerHTML = visible.length
+    ? visible.map(p => `
+      <article class="project" data-index="${PROJECTS.indexOf(p)}">
+        <div class="project-image">
+          ${imageMarkup(p)}
+          <div class="project-overlay"></div>
         </div>
-        <div class="project-arrow">↗</div>
+
+        <div class="project-info">
+          <div>
+            <h3 class="project-title">${p.title}</h3>
+            <div class="project-meta">${p.category}</div>
+          </div>
+
+          <div class="project-arrow">↗</div>
+        </div>
+      </article>
+    `).join("")
+    : `
+      <div class="no-results">
+        <h3>No projects found</h3>
+        <p>Try a different search or category.</p>
       </div>
-    </article>
-  `).join("");
+    `;
 
   $$(".project").forEach(card => {
     card.addEventListener("click", () => {
