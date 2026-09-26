@@ -59,8 +59,10 @@ function openModal(index) {
   $("#project-modal").classList.add("open");
   $("#project-modal").setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
-  const instagram = $("#modal-instagram");
+ const instagram = $("#modal-instagram");
 instagram.href = SITE.instagram;
+instagram.target = "_blank";
+instagram.rel = "noopener";
 }
 
 function closeModal() {
