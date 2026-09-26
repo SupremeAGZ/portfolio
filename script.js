@@ -7,6 +7,13 @@ $$("[data-hero-description]").forEach(el => el.textContent = SITE.heroDescriptio
 $$("[data-about]").forEach(el => el.textContent = SITE.about);
 $$("[data-x-link]").forEach(el => el.href = SITE.x);
 $$("[data-email-link]").forEach(el => el.href = `mailto:${SITE.email}`);
+$$("[data-instagram-link]").forEach(el => {
+  el.href = SITE.instagram;
+  el.target = "_blank";
+  el.rel = "noopener";
+});
+
+$("#modal-instagram").href = SITE.instagram;
 $("#year").textContent = new Date().getFullYear();
 $$("[data-stat-projects]").forEach(el => el.textContent = `${PROJECTS.length.toString().padStart(2,"0")}+`);
 
@@ -59,10 +66,7 @@ function openModal(index) {
   $("#project-modal").classList.add("open");
   $("#project-modal").setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
- const instagram = $("#modal-instagram");
-instagram.href = SITE.instagram;
-instagram.target = "_blank";
-instagram.rel = "noopener";
+});
 }
 
 function closeModal() {
