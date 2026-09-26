@@ -31,7 +31,10 @@ $$("[data-stat-projects]").forEach(el => {
 
 const filters = ["ALL", ...new Set(PROJECTS.map(p => p.category))];
 const filterWrap = $("#filters");
+const searchInput = $("#project-search");
+
 let activeFilter = "ALL";
+let searchQuery = "";
 
 function renderFilters() {
   filterWrap.innerHTML = filters.map(f =>
