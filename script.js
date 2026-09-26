@@ -142,6 +142,7 @@ $$("[data-close-modal]").forEach(el => {
   el.addEventListener("click", closeModal);
 });
 
+
 document.addEventListener("keydown", e => {
   if (e.key === "Escape") {
     closeModal();
@@ -153,6 +154,11 @@ const glow = $(".cursor-glow");
 window.addEventListener("pointermove", e => {
   glow.style.left = `${e.clientX}px`;
   glow.style.top = `${e.clientY}px`;
+});
+
+searchInput.addEventListener("input", () => {
+  searchQuery = searchInput.value;
+  renderProjects();
 });
 
 renderFilters();
