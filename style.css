@@ -7,35 +7,40 @@
   width: 100%;
   box-sizing: border-box;
   padding: 14px 18px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #ffffff12;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.04);
-  color: inherit;
-  font: inherit;
+  background: #ffffff04;
+  color: #f5f5f3;
+  font: 13px "DM Sans", sans-serif;
   outline: none;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  transition: .25s border-color, .25s background, .25s box-shadow;
 }
 
 .project-search input::placeholder {
-  opacity: 0.5;
+  color: #777980;
+  opacity: 1;
 }
 
 .project-search input:focus {
-  border-color: rgba(255, 255, 255, 0.25);
-  background: rgba(255, 255, 255, 0.06);
+  border-color: #ffffff2b;
+  background: #ffffff06;
+  box-shadow: 0 0 0 3px #ffffff05;
 }
 
 .no-results {
   grid-column: 1 / -1;
   padding: 60px 20px;
   text-align: center;
-  opacity: 0.65;
+  opacity: .65;
 }
 
 .no-results h3 {
   margin: 0 0 8px;
+  font: 600 22px "Space Grotesk";
 }
 
 .no-results p {
   margin: 0;
+  color: #777980;
+  font-size: 13px;
 }
