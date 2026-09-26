@@ -6,14 +6,8 @@ $$("[data-site-name]").forEach(el => el.textContent = SITE.name);
 $$("[data-hero-description]").forEach(el => el.textContent = SITE.heroDescription);
 $$("[data-about]").forEach(el => el.textContent = SITE.about);
 $$("[data-x-link]").forEach(el => el.href = SITE.x);
+$$("[data-instagram-link]").forEach(el => el.href = "https://www.instagram.com/supremeagzgfx/");
 $$("[data-email-link]").forEach(el => el.href = `mailto:${SITE.email}`);
-$$("[data-instagram-link]").forEach(el => {
-  el.href = SITE.instagram;
-  el.target = "_blank";
-  el.rel = "noopener";
-});
-
-$("#modal-instagram").href = SITE.instagram;
 $("#year").textContent = new Date().getFullYear();
 $$("[data-stat-projects]").forEach(el => el.textContent = `${PROJECTS.length.toString().padStart(2,"0")}+`);
 
