@@ -60,4 +60,11 @@ const PROJECTS = [
     image: "assets/images/Simulator UI.jpg",
     link: "#"
   },
+   {
+    title: "Custom Hybrid Retro UI Buttons",
+    category: "UI Buttons",
+    description: "A custom Roblox UI button collection designed with clean shapes, polished visuals, and a consistent modern style. Each button is built to provide clear interaction feedback while fitting seamlessly into different Roblox interfaces and game themes.",
+    image: "assets/images/Custom Buttons - By SupremeAGZ.jpg",
+    link: "#"
+  },
 ];
