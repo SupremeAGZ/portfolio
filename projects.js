@@ -27,7 +27,7 @@ const PROJECTS = [
     category: "UI",
     description: "A polished character selection interface designed for Roblox, featuring a clean layout that lets players browse and select their preferred character with a smooth, modern presentation.",
     image: "assets/images/Character Select.jpg",
-    type: "video", src: "assets/videos/Fixed it.mp4".
+    type: "video", src: "assets/videos/Home Teleport.mp4".
     link: "#"
   },
   {
