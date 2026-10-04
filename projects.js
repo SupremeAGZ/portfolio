@@ -1,0 +1,53 @@
+const SITE = {
+  name: "SUPREMEAGZ",
+  email: "supremeagzthumbnaildesigner@gmail.com",
+  x: "https://x.com/supremeagzgfx",
+  instagram: "https://www.instagram.com/supremeagzgfx/",
+  heroDescription: "I create polished UI, GFX, interfaces and visual experiences for Roblox projects that want to look production-ready.",
+  about: "I'm a Roblox creative focused on clean interfaces, strong visuals and polished presentation. This portfolio is designed to grow alongside my work."
+};
+
+const PROJECTS = [
+  {
+    title: "AGZ Online HUB",
+    category: "UI",
+    description: "A polished Roblox banking interface designed with a dark, modern visual style. The project focuses on clean navigation, financial dashboards, cards, transactions, and a premium overall presentation.",
+    image: "assets/images/AGZ HUB.jpg",
+    link: "#"
+  },
+  {
+    title: "Icon Buttons | Fully Customizable",
+    category: "UI Buttons",
+    description: "A fully customizable Roblox UI button collection built to easily fit any game, theme, or interface while keeping a clean and polished visual style.",
+    image: "assets/images/UI Buttons.jpg",
+    link: "#"
+  },
+  {
+    title: "Character Select",
+    category: "UI",
+    description: "A polished character selection interface designed for Roblox, featuring a clean layout that lets players browse and select their preferred character with a smooth, modern presentation.",
+    image: "assets/images/Character Select.jpg",
+    link: "#"
+  },
+  {
+    title: "Health & Stamina UI | Pack",
+    category: "UI",
+    description: "A clean, modern Roblox HUD featuring customizable health and stamina bars designed for fast-paced gameplay. The interface focuses on clear visual feedback, smooth presentation, and a polished layout that fits seamlessly into competitive FPS-style experiences.",
+    image: "assets/images/Health & Stamina BAR.jpg",
+    link: "#"
+  },
+  {
+    title: "Simulator Interface",
+    category: "UI",
+    description: "A polished Roblox simulator UI designed around clear progression, responsive navigation, and a modern visual style. The interface brings together key gameplay information, upgrades, rewards, and player progression into a clean and easy-to-use experience.",
+    image: "assets/images/Simulator UI.jpg",
+    link: "#"
+  },
+  {
+    title: "Custom Hybrid Retro UI Buttons",
+    category: "UI Buttons",
+    description: "A custom Roblox UI button collection designed with clean shapes, polished visuals, and a consistent modern style. Each button is built to provide clear interaction feedback while fitting seamlessly into different Roblox interfaces and game themes.",
+    image: "assets/images/Custom Buttons - By SupremeAGZ.jpg",
+    link: "#"
+  }
+];
