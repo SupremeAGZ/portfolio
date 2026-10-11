@@ -15,10 +15,11 @@ const PROJECTS = [
     image: "assets/images/Character Select.jpg",
     media: [
   { type: "image", src: "assets/images/Character Select.jpg" },
-  { type: "video", src: "assets/videos/videohere.mp4" }
+  //{ type: "video", src: "assets/videos/videohere.mp4" }
 ],
     link: "#"
   },
+  
   {
     title: "Health & Stamina UI | Pack",
     category: "UI",
@@ -26,6 +27,7 @@ const PROJECTS = [
     image: "assets/images/Health & Stamina BAR.jpg",
     link: "#"
   },
+  
   {
     title: "Simulator Interface",
     category: "UI",
@@ -33,6 +35,7 @@ const PROJECTS = [
     image: "assets/images/Simulator UI.jpg",
     link: "#"
   },
+  
   {
     title: "Custom Hybrid Retro UI Buttons",
     category: "UI Buttons",
