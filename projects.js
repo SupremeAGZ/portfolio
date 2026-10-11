@@ -8,23 +8,11 @@ const SITE = {
 };
 
 const PROJECTS = [
-  {
-    title: "Character Select",
-    category: "UI",
-    description: "A polished character selection interface designed for Roblox, featuring a clean layout that lets players browse and select their preferred character with a smooth, modern presentation.",
-    image: "assets/images/Character Select.jpg",
-    media: [
-  { type: "image", src: "assets/images/Character Select.jpg" },
-  //{ type: "video", src: "assets/videos/videohere.mp4" }
-],
-    link: "#"
-  },
-  
-  {
-    title: "Health & Stamina UI | Pack",
-    category: "UI",
-    description: "A clean, modern Roblox HUD featuring customizable health and stamina bars designed for fast-paced gameplay. The interface focuses on clear visual feedback, smooth presentation, and a polished layout that fits seamlessly into competitive FPS-style experiences.",
-    image: "assets/images/Health & Stamina BAR.jpg",
+    {
+    title: "Custom Hybrid Retro UI Buttons",
+    category: "UI Buttons",
+    description: "A custom Roblox UI button collection designed with clean shapes, polished visuals, and a consistent modern style. Each button is built to provide clear interaction feedback while fitting seamlessly into different Roblox interfaces and game themes.",
+    image: "assets/images/Custom Buttons - By SupremeAGZ.jpg",
     link: "#"
   },
 
@@ -36,6 +24,14 @@ const PROJECTS = [
     link: "#"
   },
   
+   {
+    title: "Health & Stamina UI | Pack",
+    category: "UI",
+    description: "A clean, modern Roblox HUD featuring customizable health and stamina bars designed for fast-paced gameplay. The interface focuses on clear visual feedback, smooth presentation, and a polished layout that fits seamlessly into competitive FPS-style experiences.",
+    image: "assets/images/Health & Stamina BAR.jpg",
+    link: "#"
+  },
+
   {
     title: "Simulator Interface",
     category: "UI",
@@ -43,12 +39,17 @@ const PROJECTS = [
     image: "assets/images/Simulator UI.jpg",
     link: "#"
   },
-  
+
   {
-    title: "Custom Hybrid Retro UI Buttons",
-    category: "UI Buttons",
-    description: "A custom Roblox UI button collection designed with clean shapes, polished visuals, and a consistent modern style. Each button is built to provide clear interaction feedback while fitting seamlessly into different Roblox interfaces and game themes.",
-    image: "assets/images/Custom Buttons - By SupremeAGZ.jpg",
+    title: "Character Select",
+    category: "UI",
+    description: "A polished character selection interface designed for Roblox, featuring a clean layout that lets players browse and select their preferred character with a smooth, modern presentation.",
+    image: "assets/images/Character Select.jpg",
+    media: [
+  { type: "image", src: "assets/images/Character Select.jpg" },
+  //{ type: "video", src: "assets/videos/videohere.mp4" }
+],
     link: "#"
   }
+
 ];
