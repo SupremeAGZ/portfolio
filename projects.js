@@ -27,6 +27,14 @@ const PROJECTS = [
     image: "assets/images/Health & Stamina BAR.jpg",
     link: "#"
   },
+
+  {
+    title: "Player ID",
+    category: "UI",
+    description: "A clean, modern Roblox Player ID HUD featuring a gritty gameplay interface. The interface focuses on clear visual feedback, smooth presentation, and a polished layout that fits seamlessly into dark gloomy-style experiences.",
+    image: "assets/images/playerid.jpg",
+    link: "#"
+  },
   
   {
     title: "Simulator Interface",
