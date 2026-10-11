@@ -9,27 +9,13 @@ const SITE = {
 
 const PROJECTS = [
   {
-    title: "AGZ Online HUB",
-    category: "UI",
-    description: "A polished Roblox banking interface designed with a dark, modern visual style. The project focuses on clean navigation, financial dashboards, cards, transactions, and a premium overall presentation.",
-    image: "assets/images/AGZ HUB.jpg",
-    link: "#"
-  },
-  {
-    title: "Icon Buttons | Fully Customizable",
-    category: "UI Buttons",
-    description: "A fully customizable Roblox UI button collection built to easily fit any game, theme, or interface while keeping a clean and polished visual style.",
-    image: "assets/images/UI Buttons.jpg",
-    link: "#"
-  },
-  {
     title: "Character Select",
     category: "UI",
     description: "A polished character selection interface designed for Roblox, featuring a clean layout that lets players browse and select their preferred character with a smooth, modern presentation.",
     image: "assets/images/Character Select.jpg",
     media: [
   { type: "image", src: "assets/images/Character Select.jpg" },
-  { type: "video", src: "assets/videos/Home Teleport.mp4" }
+  { type: "video", src: "assets/videos/videohere.mp4" }
 ],
     link: "#"
   },
